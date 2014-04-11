@@ -1,0 +1,31 @@
+{
+  "name": "flash-duel-cli",
+  "version": "0.0.1",
+  "description": "Command line game of flash duel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kennethklee/flash-duel-cli.git"
+  },
+  "keywords": [
+    "flash-duel",
+    "game",
+    "cli"
+  ],
+  "author": "Kenneth Lee <kennethkl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethklee/flash-duel-cli/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "flash-duel": "0.0.2",
+    "terminal-menu": "~0.3.1"
+  }
+}
